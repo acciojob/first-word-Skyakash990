@@ -1,13 +1,20 @@
 function firstWord(s) {
-  // your code here
-	let rms=s.trim();
-	let rms=s.split(" ");
-	return word[0];
+  // Trim leading/trailing spaces and split by space
+  let words = s.trim();
+ let wo=words.split(" ");
+  return wo[0]; // Return the first word
 }
-// Do not change the code below
 
+// Do not change the code below
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
+
+
+
+
+
+
 
 
 
